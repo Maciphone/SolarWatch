@@ -1,0 +1,32 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a276f890_002Dc821_002D45db_002Daae4_002D53d3dd2d8141/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MyControllerIntegrationTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;And&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTest&lt;/TestId&gt;&#xD;
+        &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestUserLoginWrongPassword&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+      &lt;Not&gt;&#xD;
+        &lt;TestAncestor&gt;&#xD;
+          &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTest.TestDatabaseSeed&lt;/TestId&gt;&#xD;
+        &lt;/TestAncestor&gt;&#xD;
+      &lt;/Not&gt;&#xD;
+    &lt;/And&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTest.TestDatabaseSeed&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C27D3510-A2D2-415B-B978-74334D91F103::net8.0::Test.Tests.GetAll_ShouldReturnListOfSolarWatch&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestEndPoint&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestDatabaseSeed&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestEndPointAuthenticated&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestUserLoginPassword&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C27D3510-A2D2-415B-B978-74334D91F103::net8.0::Test.Tests.GetAsyncDatabase_ShouldReturnSolarWatchFromDb_WhenDataExists&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::A310B444-A1B1-47E9-AABC-9A47F3883313::net8.0::IntegrationTest.MyControllerIntegrationTestForDatabase.TestEndPointNotFound&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C27D3510-A2D2-415B-B978-74334D91F103::net8.0::Test.Tests.UpdateCity_ShouldReturnOk_WhenCityIsUpdatedSuccessfully&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::778A13F4-6045-48B5-8C73-1F2C49599857::net8.0::SW.IntegratonTes.MyControllerIntegrationTestForDatabase&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;C27D3510-A2D2-415B-B978-74334D91F103/f:UnitTest1.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	</wpf:ResourceDictionary>
