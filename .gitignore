@@ -1,0 +1,22 @@
+# Általános beállítások
+.DS_Store
+Thumbs.db
+
+# Build output mappák
+bin/
+obj/
+
+# IDE specifikus fájlok
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node.js (Frontend)
+node_modules/
+dist/
+
+# Logok
+*.log
