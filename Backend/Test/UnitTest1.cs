@@ -13,50 +13,7 @@ namespace Test;
 
 public class Tests
 {
-    /*
-    private Mock<ILogger<SolarWatchController>> _loggerMock;
-    private Mock<ICoordinateProvider> _coordinateProvider;
-    private Mock<ISunsetProvider> _sunsetProvider;
-    private Mock<IJsonProcessor<Coordinate>> _jsonProcessorCoordinate;
-    private Mock<IJsonProcessor<SolarWatch.Model.SolarWatch>> _jsonProcessor;
-    private Mock<IJsonProcessor<SolarWatch.Model.City>> _jsonProcessorCity;
-    private Mock<ICityRepository<City, CityDto>> _cityRepository;
-    private Mock<ICityRepository<SunriseSunset, SunriseSunsetDto>> _sunriseSunsetRepository;
-    private SolarWatchController _solarWatchController;
-    //private ITokenValidator _tokenValidator;
-
-    public Tests(Mock<IJsonProcessor<Coordinate>> jsonProcessorCoordinate)
-    {
-        _jsonProcessorCoordinate = jsonProcessorCoordinate;
-    }
-
-    [SetUp]
-    public void Setup()
-    {
-        _loggerMock = new Mock<ILogger<SolarWatchController>>();
-        _coordinateProvider = new Mock<ICoordinateProvider>();
-        _sunsetProvider = new Mock<ISunsetProvider>();
-        _jsonProcessor = new Mock<IJsonProcessor<SolarWatch.Model.SolarWatch>>();
-        _jsonProcessorCoordinate = new Mock<IJsonProcessor<Coordinate>>();
-        _jsonProcessorCity = new Mock<IJsonProcessor<City>>();
-        _cityRepository = new Mock<ICityRepository<City, CityDto>>();
-        _sunriseSunsetRepository = new Mock<ICityRepository<SunriseSunset, SunriseSunsetDto>>();
-        //_tokenValidator = new TokenValidator();
-
-
-        _solarWatchController = new SolarWatchController(
-            _loggerMock.Object,
-            _sunsetProvider.Object,
-            _jsonProcessor.Object,
-            _coordinateProvider.Object,
-            _jsonProcessorCoordinate.Object,
-            _cityRepository.Object,
-            _sunriseSunsetRepository.Object,
-            _jsonProcessorCity.Object);
-        // _tokenValidator);
-    }
-    */
-
+   
     private Mock<ICoordinateProvider> _coordinateProviderMock;
     private Mock<ILogger<SolarWatchController>> _loggerMock;
     private Mock<ISunsetProvider> _sunsetProviderMock;
