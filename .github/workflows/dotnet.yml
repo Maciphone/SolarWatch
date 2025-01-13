@@ -31,4 +31,4 @@ jobs:
       run: dotnet test Backend/Test/Test.csproj --verbosity normal
     #integration test
     - name: IntegrationTest
-      run: dotnet test Backend/SW.IntegratonTes/SW.IntegratonTes.csproj --verbority normal
+      run: dotnet test Backend/SW.IntegratonTes/SW.IntegratonTes.csproj --verbosity normal
