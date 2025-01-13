@@ -26,5 +26,9 @@ jobs:
     #build
     - name: Build
       run: dotnet build Backend/SolarWatch/SolarWatch.csproj --no-restore
-    - name: Test
+    #unit test
+    - name: UnitTest
       run: dotnet test Backend/Test/Test.csproj --verbosity normal
+    #integration test
+    - name: IntegrationTest
+      run: dotnet test Backend/SW:IntegratonTs/SW:IntegratonTes.csproj --verbority normal
